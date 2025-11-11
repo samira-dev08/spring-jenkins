@@ -12,6 +12,7 @@ public class SpringJenkinsApplication {
 
 	@GetMapping("/ping")
 	public String message() {
+		System.out.println("Pipeline success");
 		return "Wao!! Application Deployed successfully in SAP Cloud..";
 	}
 
